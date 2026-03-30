@@ -1,7 +1,7 @@
 from typing import Any
 from fastapi import APIRouter, Depends
 
-from app.api.deps import get_current_user
+from app.routers.deps import get_current_user
 from app.models.user import UserInDB
 from app.schemas.user import UserResponse, UserUpdate
 from app.core.logger import logger

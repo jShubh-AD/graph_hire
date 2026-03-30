@@ -1,12 +1,11 @@
 from typing import Any
-from fastapi import APIRouter, Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordRequestForm
+from fastapi import APIRouter, HTTPException, status
 
 from app.core.security import get_password_hash, verify_password, create_access_token
 from app.db.mock_db import users_db
 from app.models.user import UserInDB
 from app.schemas.token import Token
-from app.schemas.user import UserCreate, UserResponse
+from app.schemas.user import UserCreate, UserResponse, UserLogin
 from app.core.logger import logger
 
 router = APIRouter()
@@ -31,11 +30,11 @@ def register(user_in: UserCreate) -> Any:
     return user
 
 @router.post("/login", response_model=Token)
-def login(form_data: OAuth2PasswordRequestForm = Depends()) -> Any:
-    # form_data.username will be the email since we configured Swagger
-    user = users_db.get(form_data.username)
-    if not user or not verify_password(form_data.password, user.hashed_password):
-        logger.warning(f"Failed login attempt for email: {form_data.username}")
+def login(login_data: UserLogin) -> Any:
+    # login_data.email will be the auth identifier
+    user = users_db.get(login_data.email)
+    if not user or not verify_password(login_data.password, user.hashed_password):
+        logger.warning(f"Failed login attempt for email: {login_data.email}")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect email or password",

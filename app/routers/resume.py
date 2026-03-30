@@ -1,7 +1,7 @@
 from typing import Any, List
 from fastapi import APIRouter, Depends, File, UploadFile
 
-from app.api.deps import get_current_user
+from app.routers.deps import get_current_user
 from app.models.user import UserInDB
 from app.schemas.resume import ParsedSkill
 from app.core.logger import logger

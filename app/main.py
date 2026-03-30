@@ -3,11 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.config import settings
 from app.core.logger import logger
-from app.api.api import api_router
+from app.routers.auth import router as auth_router
+from app.routers.user import router as user_router
+from app.routers.resume import router as resume_router
+from app.routers.jobs import router as jobs_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
-    openapi_url=f"{settings.API_V1_STR}/openapi.json",
     description="Backend API for AI Job Recommender System"
 )
 
@@ -20,7 +22,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(api_router, prefix=settings.API_V1_STR)
+app.include_router(auth_router, prefix="/auth", tags=["Auth"])
+app.include_router(user_router, prefix="/user", tags=["User"])
+app.include_router(resume_router, prefix="/resume", tags=["Resume"])
+app.include_router(jobs_router, prefix="/jobs", tags=["Jobs"])
 
 @app.on_event("startup")
 def startup_event():

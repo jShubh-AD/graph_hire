@@ -1,5 +1,5 @@
 from fastapi import Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordBearer
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from jose import jwt, JWTError
 
 from app.core.config import settings
@@ -7,11 +7,10 @@ from app.models.user import UserInDB
 from app.db.mock_db import users_db
 from app.schemas.token import TokenPayload
 
-reusable_oauth2 = OAuth2PasswordBearer(
-    tokenUrl=f"{settings.API_V1_STR}/auth/login"
-)
+security = HTTPBearer()
 
-def get_current_user(token: str = Depends(reusable_oauth2)) -> UserInDB:
+def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)) -> UserInDB:
+    token = credentials.credentials
     try:
         payload = jwt.decode(
             token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM]
