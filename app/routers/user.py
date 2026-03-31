@@ -25,3 +25,12 @@ def update_profile(
 
     logger.info(f"User {current_user.email} updated profile. Skills: {len(current_user.skills)}")
     return current_user
+
+@router.get("/profile", response_model=UserResponse)
+def get_profile(
+    current_user: UserInDB = Depends(get_current_user),
+) -> Any:
+    """
+    Get profile details for the current user including skills and proficiency.
+    """
+    return current_user
