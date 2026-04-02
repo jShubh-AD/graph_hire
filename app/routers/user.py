@@ -9,7 +9,7 @@ from typing import Any
 from fastapi import APIRouter, Depends
 
 from app.routers.deps import get_current_user
-from app.db.tigergraph import get_tg_connection
+from app.db.tigergraph import get_tg_connection, ensure_skill_exists, get_skill_by_id
 from app.schemas.user import UserResponse, UserUpdate
 from app.core.logger import logger
 
@@ -33,20 +33,22 @@ def update_profile(
     skill_list = []
     if user_in.skills:
         for sk in user_in.skills:
-            skill_name = sk.skill.strip().lower()
-            skill_id = f"skill_user_{skill_name.replace(' ', '_')}"
+            # Shift from name-based to ID-based lookup
+            skill_info = get_skill_by_id(sk.skill_id)
 
-            # Upsert skill vertex
-            conn.upsertVertex(
-                "Skill",
-                skill_id,
-                attributes={"skillId": skill_id, "name": sk.skill, "category": "user_defined"},
-            )
+            if not skill_info:
+                logger.warning(f"User {user_id} tried to add unknown skill ID: {sk.skill_id}. Skipping.")
+                continue
 
             # Upsert HAS_SKILL edge
-            conn.upsertEdge("User", user_id, "HAS_SKILL", "Skill", skill_id,
+            conn.upsertEdge("User", user_id, "HAS_SKILL", "Skill", str(sk.skill_id),
                             attributes={"proficiency": sk.proficiency})
-            skill_list.append({"skill": sk.skill, "proficiency": sk.proficiency})
+            
+            skill_list.append({
+                "skill_id": sk.skill_id,
+                "skill_name": skill_info["name"],
+                "proficiency": sk.proficiency
+            })
 
     logger.info(f"User {current_user['email']} updated profile with {len(skill_list)} skills")
     return {
@@ -67,19 +69,25 @@ def get_profile(
     conn = get_tg_connection()
 
     # Fetch HAS_SKILL edges to get the user's skills
-    skill_list = []
+    skill_dict = {}
     try:
         edges = conn.getEdges("User", user_id, "HAS_SKILL")
         for edge in edges:
             target_id = edge.get("to_id", "")
             proficiency = edge.get("attributes", {}).get("proficiency", 0.0)
+            
             # Fetch skill name
             sk_result = conn.getVerticesById("Skill", [target_id])
-            if sk_result:
-                name = sk_result[0]["attributes"].get("name", target_id)
-            else:
-                name = target_id
-            skill_list.append({"skill": name, "proficiency": proficiency})
+            name = sk_result[0]["attributes"].get("name", target_id) if sk_result else target_id
+            
+            # Deduplicate by name, keeping highest proficiency if duplicate
+            if name not in skill_dict or proficiency > skill_dict[name]["proficiency"]:
+                skill_dict[name] = {
+                    "skill_id": int(target_id),
+                    "skill_name": name,
+                    "proficiency": proficiency
+                }
+        skill_list = list(skill_dict.values())
     except Exception as e:
         logger.warning(f"Could not fetch skills for user {user_id}: {e}")
 

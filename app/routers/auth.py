@@ -43,7 +43,7 @@ def register(user_in: UserCreate) -> Any:
     hashed_pw = get_password_hash(user_in.password)
 
     conn = get_tg_connection()
-    conn.upsertVertex(
+    res = conn.upsertVertex(
         "User",
         user_id,
         attributes={
@@ -55,7 +55,7 @@ def register(user_in: UserCreate) -> Any:
             "resume_text": "",
         },
     )
-    logger.info(f"User registered: {user_in.email} → {user_id}")
+    logger.info(f"User registered: {user_in.email} → {user_id}. TG response: {res}")
     return {"userId": user_id, "name": user_in.name, "email": user_in.email, "bio": "", "skills": []}
 
 

@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, List, Any
+from app.schemas.user import SkillLevel
 
 
 class JobResponse(BaseModel):
@@ -13,6 +14,10 @@ class JobResponse(BaseModel):
     duration: Optional[str] = None
     date_posted: Optional[str] = None
     score: Optional[float] = None
+    status: str = "Open"
+    is_flagged: bool = False
+    flag_count: int = 0
+    skills: List[SkillLevel] = []
 
 
 class QueryInfo(BaseModel):
@@ -21,8 +26,18 @@ class QueryInfo(BaseModel):
     latency_ms: float
 
 
+class PaginationInfo(BaseModel):
+    total_items: int
+    total_pages: int
+    page: int
+    limit: int
+    has_next: bool
+    has_prev: bool
+
+
 class RecommendedJobsResponse(BaseModel):
     jobs: List[JobResponse]
+    pagination: PaginationInfo
     query_info: QueryInfo
 
 

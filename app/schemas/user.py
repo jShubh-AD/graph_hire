@@ -3,7 +3,8 @@ from pydantic import BaseModel, ConfigDict
 
 
 class SkillLevel(BaseModel):
-    skill: str
+    skill_id: int
+    skill_name: Optional[str] = None
     proficiency: float
 
 

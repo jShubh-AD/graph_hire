@@ -10,6 +10,7 @@ from app.routers.user import router as user_router
 from app.routers.resume import router as resume_router
 from app.routers.jobs import router as jobs_router
 from app.routers.graph import router as graph_router
+from app.routers.skills import router as skills_router
 
 
 @asynccontextmanager
@@ -38,10 +39,11 @@ app.add_middleware(
 )
 
 app.include_router(auth_router, prefix="/auth", tags=["Auth"])
-app.include_router(user_router, prefix="/profile", tags=["Profile"])
+app.include_router(user_router, prefix="/user", tags=["User"])
 app.include_router(resume_router, prefix="/resume", tags=["Resume"])
 app.include_router(jobs_router, prefix="/jobs", tags=["Jobs"])
 app.include_router(graph_router, prefix="/graph", tags=["Graph"])
+app.include_router(skills_router, prefix="/skills", tags=["Skills"])
 
 
 @app.get("/", tags=["health"])
