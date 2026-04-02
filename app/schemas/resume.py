@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
 class ParsedSkill(BaseModel):
-    skill: str
+    skillId: int
+    name: str # skill name
     proficiency: float

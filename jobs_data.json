@@ -1,0 +1,1428 @@
+{
+    "job_posts": [
+        {
+            "jobId": "job_001",
+            "title": "Mobile App Developer (Flutter)",
+            "description": "We are looking for a Mobile App Developer (Flutter) to join our team at Netflix. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 130000.0,
+            "pay_max": 151000.0,
+            "job_type": "Remote",
+            "duration": "6 months",
+            "date_posted": "2024-03-27 12:00:00",
+            "company_name": "Netflix",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_002",
+            "title": "Android Developer",
+            "description": "We are looking for a Android Developer to join our team at Netflix. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 133000.0,
+            "pay_max": 171000.0,
+            "job_type": "Remote",
+            "duration": "1 year",
+            "date_posted": "2024-03-25 02:00:00",
+            "company_name": "Netflix",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_003",
+            "title": "Mobile App Developer (Flutter)",
+            "description": "We are looking for a Mobile App Developer (Flutter) to join our team at Anthropic. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 104000.0,
+            "pay_max": 139000.0,
+            "job_type": "Full-time",
+            "duration": "1 year",
+            "date_posted": "2024-03-15 04:00:00",
+            "company_name": "Anthropic",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_004",
+            "title": "Frontend Developer",
+            "description": "We are looking for a Frontend Developer to join our team at Snowflake. You will work on cutting-edge Frontend technologies and help us build scalable solutions.",
+            "pay_min": 106000.0,
+            "pay_max": 144000.0,
+            "job_type": "Remote",
+            "duration": "1 year",
+            "date_posted": "2024-03-02 07:00:00",
+            "company_name": "Snowflake",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_005",
+            "title": "Machine Learning Engineer",
+            "description": "We are looking for a Machine Learning Engineer to join our team at Google. You will work on cutting-edge AI technologies and help us build scalable solutions.",
+            "pay_min": 122000.0,
+            "pay_max": 149000.0,
+            "job_type": "Remote",
+            "duration": "6 months",
+            "date_posted": "2024-03-04 03:00:00",
+            "company_name": "Google",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_006",
+            "title": "Fullstack Software Engineer",
+            "description": "We are looking for a Fullstack Software Engineer to join our team at Netflix. You will work on cutting-edge Fullstack technologies and help us build scalable solutions.",
+            "pay_min": 109000.0,
+            "pay_max": 132000.0,
+            "job_type": "Contract",
+            "duration": "Permanent",
+            "date_posted": "2024-03-17 02:00:00",
+            "company_name": "Netflix",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_007",
+            "title": "Fullstack Software Engineer",
+            "description": "We are looking for a Fullstack Software Engineer to join our team at Airbnb. You will work on cutting-edge Fullstack technologies and help us build scalable solutions.",
+            "pay_min": 117000.0,
+            "pay_max": 153000.0,
+            "job_type": "Remote",
+            "duration": "1 year",
+            "date_posted": "2024-03-29 20:00:00",
+            "company_name": "Airbnb",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_008",
+            "title": "iOS Engineer",
+            "description": "We are looking for a iOS Engineer to join our team at Stripe. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 136000.0,
+            "pay_max": 189000.0,
+            "job_type": "Full-time",
+            "duration": "Permanent",
+            "date_posted": "2024-03-14 13:00:00",
+            "company_name": "Stripe",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_009",
+            "title": "Site Reliability Engineer",
+            "description": "We are looking for a Site Reliability Engineer to join our team at Uber. You will work on cutting-edge DevOps technologies and help us build scalable solutions.",
+            "pay_min": 124000.0,
+            "pay_max": 147000.0,
+            "job_type": "Full-time",
+            "duration": "1 year",
+            "date_posted": "2024-03-28 18:00:00",
+            "company_name": "Uber",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_010",
+            "title": "Security Engineer",
+            "description": "We are looking for a Security Engineer to join our team at Netflix. You will work on cutting-edge Security technologies and help us build scalable solutions.",
+            "pay_min": 106000.0,
+            "pay_max": 133000.0,
+            "job_type": "Remote",
+            "duration": "1 year",
+            "date_posted": "2024-03-23 08:00:00",
+            "company_name": "Netflix",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_011",
+            "title": "Fintech Backend Developer",
+            "description": "We are looking for a Fintech Backend Developer to join our team at Stripe. You will work on cutting-edge Backend technologies and help us build scalable solutions.",
+            "pay_min": 114000.0,
+            "pay_max": 168000.0,
+            "job_type": "Contract",
+            "duration": "Permanent",
+            "date_posted": "2024-03-17 09:00:00",
+            "company_name": "Stripe",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_012",
+            "title": "Data Scientist",
+            "description": "We are looking for a Data Scientist to join our team at Snowflake. You will work on cutting-edge Data technologies and help us build scalable solutions.",
+            "pay_min": 101000.0,
+            "pay_max": 159000.0,
+            "job_type": "Remote",
+            "duration": "6 months",
+            "date_posted": "2024-03-30 17:00:00",
+            "company_name": "Snowflake",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_013",
+            "title": "Rust Systems Programmer",
+            "description": "We are looking for a Rust Systems Programmer to join our team at Snowflake. You will work on cutting-edge Backend technologies and help us build scalable solutions.",
+            "pay_min": 115000.0,
+            "pay_max": 139000.0,
+            "job_type": "Full-time",
+            "duration": "1 year",
+            "date_posted": "2024-03-10 14:00:00",
+            "company_name": "Snowflake",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_014",
+            "title": "Fullstack Software Engineer",
+            "description": "We are looking for a Fullstack Software Engineer to join our team at Anthropic. You will work on cutting-edge Fullstack technologies and help us build scalable solutions.",
+            "pay_min": 101000.0,
+            "pay_max": 159000.0,
+            "job_type": "Contract",
+            "duration": "Permanent",
+            "date_posted": "2024-03-06 02:00:00",
+            "company_name": "Anthropic",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_015",
+            "title": "Frontend Developer",
+            "description": "We are looking for a Frontend Developer to join our team at Google. You will work on cutting-edge Frontend technologies and help us build scalable solutions.",
+            "pay_min": 116000.0,
+            "pay_max": 167000.0,
+            "job_type": "Full-time",
+            "duration": "1 year",
+            "date_posted": "2024-03-16 06:00:00",
+            "company_name": "Google",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_016",
+            "title": "AI Research Scientist",
+            "description": "We are looking for a AI Research Scientist to join our team at OpenAI. You will work on cutting-edge AI technologies and help us build scalable solutions.",
+            "pay_min": 110000.0,
+            "pay_max": 133000.0,
+            "job_type": "Full-time",
+            "duration": "6 months",
+            "date_posted": "2024-03-04 15:00:00",
+            "company_name": "OpenAI",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_017",
+            "title": "Android Developer",
+            "description": "We are looking for a Android Developer to join our team at Snowflake. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 140000.0,
+            "pay_max": 187000.0,
+            "job_type": "Full-time",
+            "duration": "Permanent",
+            "date_posted": "2024-03-02 07:00:00",
+            "company_name": "Snowflake",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_018",
+            "title": "iOS Engineer",
+            "description": "We are looking for a iOS Engineer to join our team at Airbnb. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 125000.0,
+            "pay_max": 165000.0,
+            "job_type": "Contract",
+            "duration": "Permanent",
+            "date_posted": "2024-03-24 06:00:00",
+            "company_name": "Airbnb",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_019",
+            "title": "AI Research Scientist",
+            "description": "We are looking for a AI Research Scientist to join our team at Datadog. You will work on cutting-edge AI technologies and help us build scalable solutions.",
+            "pay_min": 110000.0,
+            "pay_max": 153000.0,
+            "job_type": "Full-time",
+            "duration": "6 months",
+            "date_posted": "2024-03-03 06:00:00",
+            "company_name": "Datadog",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_020",
+            "title": "Mobile App Developer (Flutter)",
+            "description": "We are looking for a Mobile App Developer (Flutter) to join our team at Netflix. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 103000.0,
+            "pay_max": 147000.0,
+            "job_type": "Contract",
+            "duration": "6 months",
+            "date_posted": "2024-03-27 20:00:00",
+            "company_name": "Netflix",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_021",
+            "title": "Mobile App Developer (Flutter)",
+            "description": "We are looking for a Mobile App Developer (Flutter) to join our team at Meta. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 136000.0,
+            "pay_max": 156000.0,
+            "job_type": "Remote",
+            "duration": "1 year",
+            "date_posted": "2024-03-29 19:00:00",
+            "company_name": "Meta",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_022",
+            "title": "Machine Learning Engineer",
+            "description": "We are looking for a Machine Learning Engineer to join our team at Snowflake. You will work on cutting-edge AI technologies and help us build scalable solutions.",
+            "pay_min": 128000.0,
+            "pay_max": 165000.0,
+            "job_type": "Remote",
+            "duration": "Permanent",
+            "date_posted": "2024-03-30 23:00:00",
+            "company_name": "Snowflake",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_023",
+            "title": "iOS Engineer",
+            "description": "We are looking for a iOS Engineer to join our team at Anthropic. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 113000.0,
+            "pay_max": 164000.0,
+            "job_type": "Contract",
+            "duration": "Permanent",
+            "date_posted": "2024-03-22 10:00:00",
+            "company_name": "Anthropic",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_024",
+            "title": "Mobile App Developer (Flutter)",
+            "description": "We are looking for a Mobile App Developer (Flutter) to join our team at Meta. You will work on cutting-edge Mobile technologies and help us build scalable solutions.",
+            "pay_min": 109000.0,
+            "pay_max": 162000.0,
+            "job_type": "Remote",
+            "duration": "6 months",
+            "date_posted": "2024-03-28 11:00:00",
+            "company_name": "Meta",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_025",
+            "title": "Fullstack Software Engineer",
+            "description": "We are looking for a Fullstack Software Engineer to join our team at Airbnb. You will work on cutting-edge Fullstack technologies and help us build scalable solutions.",
+            "pay_min": 137000.0,
+            "pay_max": 162000.0,
+            "job_type": "Full-time",
+            "duration": "Permanent",
+            "date_posted": "2024-03-29 22:00:00",
+            "company_name": "Airbnb",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_026",
+            "title": "Data Scientist",
+            "description": "We are looking for a Data Scientist to join our team at Meta. You will work on cutting-edge Data technologies and help us build scalable solutions.",
+            "pay_min": 123000.0,
+            "pay_max": 160000.0,
+            "job_type": "Contract",
+            "duration": "Permanent",
+            "date_posted": "2024-03-07 23:00:00",
+            "company_name": "Meta",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_027",
+            "title": "Fintech Backend Developer",
+            "description": "We are looking for a Fintech Backend Developer to join our team at Netflix. You will work on cutting-edge Backend technologies and help us build scalable solutions.",
+            "pay_min": 135000.0,
+            "pay_max": 191000.0,
+            "job_type": "Full-time",
+            "duration": "1 year",
+            "date_posted": "2024-03-02 19:00:00",
+            "company_name": "Netflix",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_028",
+            "title": "Rust Systems Programmer",
+            "description": "We are looking for a Rust Systems Programmer to join our team at Uber. You will work on cutting-edge Backend technologies and help us build scalable solutions.",
+            "pay_min": 120000.0,
+            "pay_max": 162000.0,
+            "job_type": "Full-time",
+            "duration": "1 year",
+            "date_posted": "2024-03-19 14:00:00",
+            "company_name": "Uber",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_029",
+            "title": "Rust Systems Programmer",
+            "description": "We are looking for a Rust Systems Programmer to join our team at Meta. You will work on cutting-edge Backend technologies and help us build scalable solutions.",
+            "pay_min": 106000.0,
+            "pay_max": 158000.0,
+            "job_type": "Contract",
+            "duration": "6 months",
+            "date_posted": "2024-03-09 03:00:00",
+            "company_name": "Meta",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_030",
+            "title": "DevOps Architect",
+            "description": "We are looking for a DevOps Architect to join our team at Google. You will work on cutting-edge DevOps technologies and help us build scalable solutions.",
+            "pay_min": 179000.0,
+            "pay_max": 201000.0,
+            "job_type": "Remote",
+            "duration": "Permanent",
+            "date_posted": "2024-03-01 21:00:00",
+            "company_name": "Google",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_031",
+            "title": "Machine Learning Engineer",
+            "description": "We are looking for a Machine Learning Engineer to join our team at Google. You will work on cutting-edge AI technologies and help us build scalable solutions.",
+            "pay_min": 114000.0,
+            "pay_max": 150000.0,
+            "job_type": "Remote",
+            "duration": "6 months",
+            "date_posted": "2024-03-05 00:00:00",
+            "company_name": "Google",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_032",
+            "title": "Senior React Developer",
+            "description": "We are looking for a Senior React Developer to join our team at Netflix. You will work on cutting-edge Frontend technologies and help us build scalable solutions.",
+            "pay_min": 145000.0,
+            "pay_max": 186000.0,
+            "job_type": "Remote",
+            "duration": "1 year",
+            "date_posted": "2024-03-07 10:00:00",
+            "company_name": "Netflix",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_033",
+            "title": "Fullstack Software Engineer",
+            "description": "We are looking for a Fullstack Software Engineer to join our team at Uber. You will work on cutting-edge Fullstack technologies and help us build scalable solutions.",
+            "pay_min": 137000.0,
+            "pay_max": 159000.0,
+            "job_type": "Remote",
+            "duration": "Permanent",
+            "date_posted": "2024-03-01 20:00:00",
+            "company_name": "Uber",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_034",
+            "title": "DevOps Architect",
+            "description": "We are looking for a DevOps Architect to join our team at Anthropic. You will work on cutting-edge DevOps technologies and help us build scalable solutions.",
+            "pay_min": 142000.0,
+            "pay_max": 164000.0,
+            "job_type": "Contract",
+            "duration": "6 months",
+            "date_posted": "2024-03-01 00:00:00",
+            "company_name": "Anthropic",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_035",
+            "title": "Fullstack Software Engineer",
+            "description": "We are looking for a Fullstack Software Engineer to join our team at Google. You will work on cutting-edge Fullstack technologies and help us build scalable solutions.",
+            "pay_min": 108000.0,
+            "pay_max": 134000.0,
+            "job_type": "Contract",
+            "duration": "1 year",
+            "date_posted": "2024-03-04 10:00:00",
+            "company_name": "Google",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_036",
+            "title": "Security Engineer",
+            "description": "We are looking for a Security Engineer to join our team at Airbnb. You will work on cutting-edge Security technologies and help us build scalable solutions.",
+            "pay_min": 124000.0,
+            "pay_max": 155000.0,
+            "job_type": "Contract",
+            "duration": "6 months",
+            "date_posted": "2024-03-06 14:00:00",
+            "company_name": "Airbnb",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_037",
+            "title": "AI Research Scientist",
+            "description": "We are looking for a AI Research Scientist to join our team at OpenAI. You will work on cutting-edge AI technologies and help us build scalable solutions.",
+            "pay_min": 101000.0,
+            "pay_max": 154000.0,
+            "job_type": "Full-time",
+            "duration": "1 year",
+            "date_posted": "2024-03-16 01:00:00",
+            "company_name": "OpenAI",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_038",
+            "title": "Data Scientist",
+            "description": "We are looking for a Data Scientist to join our team at Datadog. You will work on cutting-edge Data technologies and help us build scalable solutions.",
+            "pay_min": 130000.0,
+            "pay_max": 170000.0,
+            "job_type": "Remote",
+            "duration": "Permanent",
+            "date_posted": "2024-03-11 19:00:00",
+            "company_name": "Datadog",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_039",
+            "title": "Frontend Developer",
+            "description": "We are looking for a Frontend Developer to join our team at Stripe. You will work on cutting-edge Frontend technologies and help us build scalable solutions.",
+            "pay_min": 111000.0,
+            "pay_max": 131000.0,
+            "job_type": "Remote",
+            "duration": "1 year",
+            "date_posted": "2024-03-08 14:00:00",
+            "company_name": "Stripe",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        },
+        {
+            "jobId": "job_040",
+            "title": "AI Research Scientist",
+            "description": "We are looking for a AI Research Scientist to join our team at Snowflake. You will work on cutting-edge AI technologies and help us build scalable solutions.",
+            "pay_min": 111000.0,
+            "pay_max": 150000.0,
+            "job_type": "Remote",
+            "duration": "Permanent",
+            "date_posted": "2024-03-02 21:00:00",
+            "company_name": "Snowflake",
+            "status": "Open",
+            "flag_count": 0,
+            "is_flagged": false
+        }
+    ],
+    "posted_by": [
+        {
+            "source_id": "job_001",
+            "target_id": "comp_netflix"
+        },
+        {
+            "source_id": "job_002",
+            "target_id": "comp_netflix"
+        },
+        {
+            "source_id": "job_003",
+            "target_id": "comp_anthropic"
+        },
+        {
+            "source_id": "job_004",
+            "target_id": "comp_snowflake"
+        },
+        {
+            "source_id": "job_005",
+            "target_id": "comp_google"
+        },
+        {
+            "source_id": "job_006",
+            "target_id": "comp_netflix"
+        },
+        {
+            "source_id": "job_007",
+            "target_id": "comp_airbnb"
+        },
+        {
+            "source_id": "job_008",
+            "target_id": "comp_stripe"
+        },
+        {
+            "source_id": "job_009",
+            "target_id": "comp_uber"
+        },
+        {
+            "source_id": "job_010",
+            "target_id": "comp_netflix"
+        },
+        {
+            "source_id": "job_011",
+            "target_id": "comp_stripe"
+        },
+        {
+            "source_id": "job_012",
+            "target_id": "comp_snowflake"
+        },
+        {
+            "source_id": "job_013",
+            "target_id": "comp_snowflake"
+        },
+        {
+            "source_id": "job_014",
+            "target_id": "comp_anthropic"
+        },
+        {
+            "source_id": "job_015",
+            "target_id": "comp_google"
+        },
+        {
+            "source_id": "job_016",
+            "target_id": "comp_openai"
+        },
+        {
+            "source_id": "job_017",
+            "target_id": "comp_snowflake"
+        },
+        {
+            "source_id": "job_018",
+            "target_id": "comp_airbnb"
+        },
+        {
+            "source_id": "job_019",
+            "target_id": "comp_datadog"
+        },
+        {
+            "source_id": "job_020",
+            "target_id": "comp_netflix"
+        },
+        {
+            "source_id": "job_021",
+            "target_id": "comp_meta"
+        },
+        {
+            "source_id": "job_022",
+            "target_id": "comp_snowflake"
+        },
+        {
+            "source_id": "job_023",
+            "target_id": "comp_anthropic"
+        },
+        {
+            "source_id": "job_024",
+            "target_id": "comp_meta"
+        },
+        {
+            "source_id": "job_025",
+            "target_id": "comp_airbnb"
+        },
+        {
+            "source_id": "job_026",
+            "target_id": "comp_meta"
+        },
+        {
+            "source_id": "job_027",
+            "target_id": "comp_netflix"
+        },
+        {
+            "source_id": "job_028",
+            "target_id": "comp_uber"
+        },
+        {
+            "source_id": "job_029",
+            "target_id": "comp_meta"
+        },
+        {
+            "source_id": "job_030",
+            "target_id": "comp_google"
+        },
+        {
+            "source_id": "job_031",
+            "target_id": "comp_google"
+        },
+        {
+            "source_id": "job_032",
+            "target_id": "comp_netflix"
+        },
+        {
+            "source_id": "job_033",
+            "target_id": "comp_uber"
+        },
+        {
+            "source_id": "job_034",
+            "target_id": "comp_anthropic"
+        },
+        {
+            "source_id": "job_035",
+            "target_id": "comp_google"
+        },
+        {
+            "source_id": "job_036",
+            "target_id": "comp_airbnb"
+        },
+        {
+            "source_id": "job_037",
+            "target_id": "comp_openai"
+        },
+        {
+            "source_id": "job_038",
+            "target_id": "comp_datadog"
+        },
+        {
+            "source_id": "job_039",
+            "target_id": "comp_stripe"
+        },
+        {
+            "source_id": "job_040",
+            "target_id": "comp_snowflake"
+        }
+    ],
+    "requires_skill": [
+        {
+            "source_id": "job_001",
+            "target_id": "16",
+            "importance": 0.74
+        },
+        {
+            "source_id": "job_001",
+            "target_id": "21",
+            "importance": 0.97
+        },
+        {
+            "source_id": "job_002",
+            "target_id": "18",
+            "importance": 0.9
+        },
+        {
+            "source_id": "job_002",
+            "target_id": "3",
+            "importance": 0.83
+        },
+        {
+            "source_id": "job_002",
+            "target_id": "21",
+            "importance": 0.96
+        },
+        {
+            "source_id": "job_003",
+            "target_id": "16",
+            "importance": 0.63
+        },
+        {
+            "source_id": "job_003",
+            "target_id": "21",
+            "importance": 0.75
+        },
+        {
+            "source_id": "job_004",
+            "target_id": "4",
+            "importance": 0.82
+        },
+        {
+            "source_id": "job_004",
+            "target_id": "5",
+            "importance": 0.87
+        },
+        {
+            "source_id": "job_004",
+            "target_id": "13",
+            "importance": 1.0
+        },
+        {
+            "source_id": "job_004",
+            "target_id": "21",
+            "importance": 0.94
+        },
+        {
+            "source_id": "job_005",
+            "target_id": "1",
+            "importance": 0.95
+        },
+        {
+            "source_id": "job_005",
+            "target_id": "12",
+            "importance": 0.87
+        },
+        {
+            "source_id": "job_005",
+            "target_id": "19",
+            "importance": 0.89
+        },
+        {
+            "source_id": "job_005",
+            "target_id": "20",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_005",
+            "target_id": "10",
+            "importance": 0.96
+        },
+        {
+            "source_id": "job_006",
+            "target_id": "13",
+            "importance": 0.89
+        },
+        {
+            "source_id": "job_006",
+            "target_id": "5",
+            "importance": 0.76
+        },
+        {
+            "source_id": "job_006",
+            "target_id": "6",
+            "importance": 0.79
+        },
+        {
+            "source_id": "job_006",
+            "target_id": "11",
+            "importance": 0.99
+        },
+        {
+            "source_id": "job_006",
+            "target_id": "7",
+            "importance": 0.92
+        },
+        {
+            "source_id": "job_007",
+            "target_id": "13",
+            "importance": 0.74
+        },
+        {
+            "source_id": "job_007",
+            "target_id": "5",
+            "importance": 0.64
+        },
+        {
+            "source_id": "job_007",
+            "target_id": "6",
+            "importance": 0.89
+        },
+        {
+            "source_id": "job_007",
+            "target_id": "11",
+            "importance": 0.91
+        },
+        {
+            "source_id": "job_007",
+            "target_id": "7",
+            "importance": 0.61
+        },
+        {
+            "source_id": "job_008",
+            "target_id": "17",
+            "importance": 0.63
+        },
+        {
+            "source_id": "job_008",
+            "target_id": "21",
+            "importance": 0.91
+        },
+        {
+            "source_id": "job_009",
+            "target_id": "1",
+            "importance": 0.64
+        },
+        {
+            "source_id": "job_009",
+            "target_id": "14",
+            "importance": 0.76
+        },
+        {
+            "source_id": "job_009",
+            "target_id": "9",
+            "importance": 0.87
+        },
+        {
+            "source_id": "job_009",
+            "target_id": "8",
+            "importance": 0.79
+        },
+        {
+            "source_id": "job_009",
+            "target_id": "7",
+            "importance": 0.99
+        },
+        {
+            "source_id": "job_010",
+            "target_id": "1",
+            "importance": 0.8
+        },
+        {
+            "source_id": "job_010",
+            "target_id": "14",
+            "importance": 0.82
+        },
+        {
+            "source_id": "job_011",
+            "target_id": "3",
+            "importance": 0.78
+        },
+        {
+            "source_id": "job_011",
+            "target_id": "10",
+            "importance": 0.66
+        },
+        {
+            "source_id": "job_011",
+            "target_id": "11",
+            "importance": 0.69
+        },
+        {
+            "source_id": "job_011",
+            "target_id": "7",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_012",
+            "target_id": "1",
+            "importance": 0.75
+        },
+        {
+            "source_id": "job_012",
+            "target_id": "10",
+            "importance": 0.94
+        },
+        {
+            "source_id": "job_012",
+            "target_id": "12",
+            "importance": 0.93
+        },
+        {
+            "source_id": "job_012",
+            "target_id": "20",
+            "importance": 0.89
+        },
+        {
+            "source_id": "job_013",
+            "target_id": "15",
+            "importance": 0.83
+        },
+        {
+            "source_id": "job_013",
+            "target_id": "14",
+            "importance": 0.74
+        },
+        {
+            "source_id": "job_014",
+            "target_id": "13",
+            "importance": 0.88
+        },
+        {
+            "source_id": "job_014",
+            "target_id": "5",
+            "importance": 0.93
+        },
+        {
+            "source_id": "job_014",
+            "target_id": "6",
+            "importance": 0.98
+        },
+        {
+            "source_id": "job_014",
+            "target_id": "11",
+            "importance": 0.71
+        },
+        {
+            "source_id": "job_014",
+            "target_id": "7",
+            "importance": 0.63
+        },
+        {
+            "source_id": "job_015",
+            "target_id": "4",
+            "importance": 0.86
+        },
+        {
+            "source_id": "job_015",
+            "target_id": "5",
+            "importance": 0.8
+        },
+        {
+            "source_id": "job_015",
+            "target_id": "13",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_015",
+            "target_id": "21",
+            "importance": 0.8
+        },
+        {
+            "source_id": "job_016",
+            "target_id": "1",
+            "importance": 0.87
+        },
+        {
+            "source_id": "job_016",
+            "target_id": "19",
+            "importance": 0.97
+        },
+        {
+            "source_id": "job_016",
+            "target_id": "12",
+            "importance": 0.81
+        },
+        {
+            "source_id": "job_017",
+            "target_id": "18",
+            "importance": 0.8
+        },
+        {
+            "source_id": "job_017",
+            "target_id": "3",
+            "importance": 0.75
+        },
+        {
+            "source_id": "job_017",
+            "target_id": "21",
+            "importance": 0.91
+        },
+        {
+            "source_id": "job_018",
+            "target_id": "17",
+            "importance": 0.83
+        },
+        {
+            "source_id": "job_018",
+            "target_id": "21",
+            "importance": 0.95
+        },
+        {
+            "source_id": "job_019",
+            "target_id": "1",
+            "importance": 0.77
+        },
+        {
+            "source_id": "job_019",
+            "target_id": "19",
+            "importance": 0.95
+        },
+        {
+            "source_id": "job_019",
+            "target_id": "12",
+            "importance": 0.62
+        },
+        {
+            "source_id": "job_020",
+            "target_id": "16",
+            "importance": 0.66
+        },
+        {
+            "source_id": "job_020",
+            "target_id": "21",
+            "importance": 0.72
+        },
+        {
+            "source_id": "job_021",
+            "target_id": "16",
+            "importance": 0.85
+        },
+        {
+            "source_id": "job_021",
+            "target_id": "21",
+            "importance": 0.77
+        },
+        {
+            "source_id": "job_022",
+            "target_id": "1",
+            "importance": 0.89
+        },
+        {
+            "source_id": "job_022",
+            "target_id": "12",
+            "importance": 0.98
+        },
+        {
+            "source_id": "job_022",
+            "target_id": "19",
+            "importance": 0.99
+        },
+        {
+            "source_id": "job_022",
+            "target_id": "20",
+            "importance": 0.6
+        },
+        {
+            "source_id": "job_022",
+            "target_id": "10",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_023",
+            "target_id": "17",
+            "importance": 0.98
+        },
+        {
+            "source_id": "job_023",
+            "target_id": "21",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_024",
+            "target_id": "16",
+            "importance": 0.63
+        },
+        {
+            "source_id": "job_024",
+            "target_id": "21",
+            "importance": 0.65
+        },
+        {
+            "source_id": "job_025",
+            "target_id": "13",
+            "importance": 0.74
+        },
+        {
+            "source_id": "job_025",
+            "target_id": "5",
+            "importance": 0.83
+        },
+        {
+            "source_id": "job_025",
+            "target_id": "6",
+            "importance": 0.91
+        },
+        {
+            "source_id": "job_025",
+            "target_id": "11",
+            "importance": 0.98
+        },
+        {
+            "source_id": "job_025",
+            "target_id": "7",
+            "importance": 0.97
+        },
+        {
+            "source_id": "job_026",
+            "target_id": "1",
+            "importance": 0.6
+        },
+        {
+            "source_id": "job_026",
+            "target_id": "10",
+            "importance": 0.62
+        },
+        {
+            "source_id": "job_026",
+            "target_id": "12",
+            "importance": 0.79
+        },
+        {
+            "source_id": "job_026",
+            "target_id": "20",
+            "importance": 0.81
+        },
+        {
+            "source_id": "job_027",
+            "target_id": "3",
+            "importance": 0.66
+        },
+        {
+            "source_id": "job_027",
+            "target_id": "10",
+            "importance": 0.93
+        },
+        {
+            "source_id": "job_027",
+            "target_id": "11",
+            "importance": 0.93
+        },
+        {
+            "source_id": "job_027",
+            "target_id": "7",
+            "importance": 0.61
+        },
+        {
+            "source_id": "job_028",
+            "target_id": "15",
+            "importance": 0.81
+        },
+        {
+            "source_id": "job_028",
+            "target_id": "14",
+            "importance": 0.82
+        },
+        {
+            "source_id": "job_029",
+            "target_id": "15",
+            "importance": 0.87
+        },
+        {
+            "source_id": "job_029",
+            "target_id": "14",
+            "importance": 0.93
+        },
+        {
+            "source_id": "job_030",
+            "target_id": "8",
+            "importance": 0.93
+        },
+        {
+            "source_id": "job_030",
+            "target_id": "9",
+            "importance": 0.83
+        },
+        {
+            "source_id": "job_030",
+            "target_id": "7",
+            "importance": 0.65
+        },
+        {
+            "source_id": "job_030",
+            "target_id": "14",
+            "importance": 0.72
+        },
+        {
+            "source_id": "job_030",
+            "target_id": "1",
+            "importance": 0.89
+        },
+        {
+            "source_id": "job_031",
+            "target_id": "1",
+            "importance": 0.67
+        },
+        {
+            "source_id": "job_031",
+            "target_id": "12",
+            "importance": 0.6
+        },
+        {
+            "source_id": "job_031",
+            "target_id": "19",
+            "importance": 0.82
+        },
+        {
+            "source_id": "job_031",
+            "target_id": "20",
+            "importance": 0.61
+        },
+        {
+            "source_id": "job_031",
+            "target_id": "10",
+            "importance": 0.9
+        },
+        {
+            "source_id": "job_032",
+            "target_id": "5",
+            "importance": 0.74
+        },
+        {
+            "source_id": "job_032",
+            "target_id": "13",
+            "importance": 0.96
+        },
+        {
+            "source_id": "job_032",
+            "target_id": "4",
+            "importance": 0.88
+        },
+        {
+            "source_id": "job_032",
+            "target_id": "21",
+            "importance": 0.93
+        },
+        {
+            "source_id": "job_033",
+            "target_id": "13",
+            "importance": 0.61
+        },
+        {
+            "source_id": "job_033",
+            "target_id": "5",
+            "importance": 0.97
+        },
+        {
+            "source_id": "job_033",
+            "target_id": "6",
+            "importance": 0.84
+        },
+        {
+            "source_id": "job_033",
+            "target_id": "11",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_033",
+            "target_id": "7",
+            "importance": 0.97
+        },
+        {
+            "source_id": "job_034",
+            "target_id": "8",
+            "importance": 0.69
+        },
+        {
+            "source_id": "job_034",
+            "target_id": "9",
+            "importance": 0.77
+        },
+        {
+            "source_id": "job_034",
+            "target_id": "7",
+            "importance": 0.88
+        },
+        {
+            "source_id": "job_034",
+            "target_id": "14",
+            "importance": 1.0
+        },
+        {
+            "source_id": "job_034",
+            "target_id": "1",
+            "importance": 0.91
+        },
+        {
+            "source_id": "job_035",
+            "target_id": "13",
+            "importance": 0.92
+        },
+        {
+            "source_id": "job_035",
+            "target_id": "5",
+            "importance": 0.86
+        },
+        {
+            "source_id": "job_035",
+            "target_id": "6",
+            "importance": 0.66
+        },
+        {
+            "source_id": "job_035",
+            "target_id": "11",
+            "importance": 0.71
+        },
+        {
+            "source_id": "job_035",
+            "target_id": "7",
+            "importance": 0.98
+        },
+        {
+            "source_id": "job_036",
+            "target_id": "1",
+            "importance": 0.6
+        },
+        {
+            "source_id": "job_036",
+            "target_id": "14",
+            "importance": 0.96
+        },
+        {
+            "source_id": "job_037",
+            "target_id": "1",
+            "importance": 0.99
+        },
+        {
+            "source_id": "job_037",
+            "target_id": "19",
+            "importance": 0.71
+        },
+        {
+            "source_id": "job_037",
+            "target_id": "12",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_038",
+            "target_id": "1",
+            "importance": 0.78
+        },
+        {
+            "source_id": "job_038",
+            "target_id": "10",
+            "importance": 0.7
+        },
+        {
+            "source_id": "job_038",
+            "target_id": "12",
+            "importance": 0.61
+        },
+        {
+            "source_id": "job_038",
+            "target_id": "20",
+            "importance": 0.7
+        },
+        {
+            "source_id": "job_039",
+            "target_id": "4",
+            "importance": 0.99
+        },
+        {
+            "source_id": "job_039",
+            "target_id": "5",
+            "importance": 0.68
+        },
+        {
+            "source_id": "job_039",
+            "target_id": "13",
+            "importance": 0.78
+        },
+        {
+            "source_id": "job_039",
+            "target_id": "21",
+            "importance": 0.8
+        },
+        {
+            "source_id": "job_040",
+            "target_id": "1",
+            "importance": 0.86
+        },
+        {
+            "source_id": "job_040",
+            "target_id": "19",
+            "importance": 0.9
+        },
+        {
+            "source_id": "job_040",
+            "target_id": "12",
+            "importance": 0.81
+        }
+    ]
+}

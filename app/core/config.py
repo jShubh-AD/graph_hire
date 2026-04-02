@@ -12,10 +12,14 @@ class Settings(BaseSettings):
     TG_JWT_TOKEN: str = ""
     TG_GRAPH: str = "graphhire"
 
+    # AI
+    GEMINI_API_KEY: str = ""
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",
-        case_sensitive=True
+        case_sensitive=True,
+        extra="ignore"
     )
 
 settings = Settings()
