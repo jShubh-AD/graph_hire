@@ -31,7 +31,15 @@ def update_profile(
         conn.upsertVertex("User", user_id, attributes={"bio": user_in.bio})
 
     skill_list = []
-    if user_in.skills:
+    if user_in.skills is not None:
+        # 1. Clear existing skills for replacement logic
+        try:
+            conn.deleteEdges("User", user_id, "HAS_SKILL")
+            logger.info(f"Cleared existing skills for user {user_id} before update")
+        except Exception as e:
+            logger.error(f"Failed to clear skills for user {user_id}: {e}")
+
+        # 2. Add new skills
         for sk in user_in.skills:
             # Shift from name-based to ID-based lookup
             skill_info = get_skill_by_id(sk.skill_id)

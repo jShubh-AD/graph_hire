@@ -34,8 +34,16 @@ async def upload_resume(
         # 3. Use AI to extract skills matched against DB skills
         extracted_skills = await ai_service.parse_resume_skills(content, db_skills)
         
-        # 4. Save HAS_SKILL relationships to TigerGraph
+        # 4. Clear existing skills for replacement logic
         user_id = current_user["userId"]
+        try:
+            from app.db.tigergraph import delete_edges
+            delete_edges("User", str(user_id), "HAS_SKILL")
+            logger.info(f"Cleared existing skills for user {user_id} before resume update")
+        except Exception as e:
+            logger.error(f"Failed to clear skills for user {user_id}: {e}")
+
+        # 5. Save HAS_SKILL relationships to TigerGraph
         for skill in extracted_skills:
             try:
                 upsert_edge(

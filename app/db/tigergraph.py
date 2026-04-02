@@ -96,6 +96,16 @@ def tg_put(path: str, body: Any) -> Any:
     return data
 
 
+def tg_delete(path: str, params: dict = None) -> Any:
+    """DELETE request — required for deleting vertices/edges."""
+    url = f"{_graph_base()}{path}"
+    resp = requests.delete(url, headers=_headers(), params=params or {}, timeout=15, verify=True)
+    resp.raise_for_status()
+    data = resp.json()
+    logger.debug(f"TG DELETE {path} → {data}")
+    return data
+
+
 # ── Graph operations ──────────────────────────────────────────────────────────
 
 GRAPH = property(lambda self: settings.TG_GRAPH)
@@ -143,6 +153,17 @@ def upsert_edge(
     }
     result = tg_post(f"/graph/{_G()}", body)
     logger.info(f"upsert_edge({from_type}/{from_id} -[{edge_type}]-> {to_type}/{to_id}) → {result}")
+    return result
+
+
+def delete_edges(from_type: str, from_id: str, edge_type: str) -> dict:
+    """
+    Deletes ALL edges of the specified type starting from the specified vertex.
+    Uses the built-in DELETE /graph/{g}/edges/{from_type}/{from_id}/{edge_type} endpoint.
+    """
+    path = f"/graph/{_G()}/edges/{from_type}/{from_id}/{edge_type}"
+    result = tg_delete(path)
+    logger.info(f"delete_edges({from_type}/{from_id}, {edge_type}) → {result}")
     return result
 
 
@@ -282,6 +303,9 @@ class _TGShim:
 
     def upsertEdge(self, from_type, from_id, edge_type, to_type, to_id, attributes=None):
         return upsert_edge(from_type, from_id, edge_type, to_type, to_id, attributes or {})
+
+    def deleteEdges(self, from_type, from_id, edge_type):
+        return delete_edges(from_type, from_id, edge_type)
 
     def getVertices(self, vtype, where=None, select=None, limit=100):
         return get_vertices(vtype, where=where, select=select, limit=limit)
