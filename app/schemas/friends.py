@@ -21,6 +21,7 @@ class FriendResponse(BaseModel):
     email: str
     bio: Optional[str] = None
     current_company: Optional[CompanyInfo] = None
+    skills: List[str] = []
 
 
 class SuggestionResponse(BaseModel):
@@ -29,6 +30,7 @@ class SuggestionResponse(BaseModel):
     email: str
     shared_skill_count: int
     current_company: Optional[CompanyInfo] = None
+    skills: List[str] = []
 
 
 class ReferralContact(BaseModel):

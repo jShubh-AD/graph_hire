@@ -130,6 +130,7 @@ def get_following(
                     email=attrs.get("email", ""),
                     bio=attrs.get("bio"),
                     current_company=_parse_company(attrs),
+                    skills=attrs.get("skills", []),
                 )
             )
     return friends
@@ -159,6 +160,7 @@ def get_suggestions(
                     email=attrs.get("email", ""),
                     shared_skill_count=int(attrs.get("shared_skill_count", 0)),
                     current_company=_parse_company(attrs),
+                    skills=attrs.get("skills", []),
                 )
             )
     return suggestions
