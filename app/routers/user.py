@@ -72,37 +72,50 @@ def update_profile(
 def get_profile(
     current_user: dict = Depends(get_current_user),
 ) -> Any:
-    """Fetch current user's profile + skills from TigerGraph."""
+    """Fetch current user's profile + skills from TigerGraph using installed query."""
     user_id = current_user["userId"]
     conn = get_tg_connection()
 
-    # Fetch HAS_SKILL edges to get the user's skills
-    skill_dict = {}
     try:
-        edges = conn.getEdges("User", user_id, "HAS_SKILL")
-        for edge in edges:
-            target_id = edge.get("to_id", "")
-            proficiency = edge.get("attributes", {}).get("proficiency", 0.0)
-            
-            # Fetch skill name
-            sk_result = conn.getVerticesById("Skill", [target_id])
-            name = sk_result[0]["attributes"].get("name", target_id) if sk_result else target_id
-            
-            # Deduplicate by name, keeping highest proficiency if duplicate
-            if name not in skill_dict or proficiency > skill_dict[name]["proficiency"]:
-                skill_dict[name] = {
-                    "skill_id": int(target_id),
-                    "skill_name": name,
-                    "proficiency": proficiency
-                }
-        skill_list = list(skill_dict.values())
+        res = conn.runInstalledQuery("get_user_profile", {"p_userId": user_id})
+        
+        if res and isinstance(res, list):
+            for item in res:
+                if "seed" in item and len(item["seed"]) > 0:
+                    user_data = item["seed"][0].get("attributes", {})
+                    
+                    # Convert skills from Tuples
+                    raw_skills = user_data.get("skills", [])
+                    
+                    skill_dict = {}
+                    for s in raw_skills:
+                        name = s.get("skillName", "")
+                        prof = s.get("proficiency", 0.0)
+                        sid = s.get("skillId", 0)
+                        
+                        # Deduplicate by name, keeping highest proficiency if duplicate
+                        if name not in skill_dict or prof > skill_dict[name]["proficiency"]:
+                            skill_dict[name] = {
+                                "skill_id": int(sid),
+                                "skill_name": name,
+                                "proficiency": prof
+                            }
+                    
+                    return {
+                        "userId": user_data.get("userId", user_id),
+                        "name": user_data.get("name", current_user.get("name", "")),
+                        "email": user_data.get("email", current_user.get("email", "")),
+                        "bio": user_data.get("bio", current_user.get("bio", "")),
+                        "skills": list(skill_dict.values()),
+                    }
     except Exception as e:
-        logger.warning(f"Could not fetch skills for user {user_id}: {e}")
+        logger.error(f"Failed to fetch profile via get_user_profile: {e}")
 
+    # Fallback if DB error
     return {
         "userId": user_id,
         "name": current_user.get("name", ""),
         "email": current_user.get("email", ""),
         "bio": current_user.get("bio", ""),
-        "skills": skill_list,
+        "skills": [],
     }

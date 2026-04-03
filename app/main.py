@@ -11,6 +11,7 @@ from app.routers.resume import router as resume_router
 from app.routers.jobs import router as jobs_router
 from app.routers.graph import router as graph_router
 from app.routers.skills import router as skills_router
+from app.routers.friends import router as friends_router, jobs_router as friends_jobs_router
 
 
 @asynccontextmanager
@@ -44,6 +45,8 @@ app.include_router(resume_router, prefix="/resume", tags=["Resume"])
 app.include_router(jobs_router, prefix="/jobs", tags=["Jobs"])
 app.include_router(graph_router, prefix="/graph", tags=["Graph"])
 app.include_router(skills_router, prefix="/skills", tags=["Skills"])
+app.include_router(friends_router, prefix="/friends", tags=["Friends"])
+app.include_router(friends_jobs_router, prefix="/jobs", tags=["Jobs"])
 
 
 @app.get("/", tags=["health"])
